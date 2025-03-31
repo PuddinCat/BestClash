@@ -19,4 +19,12 @@ jobs:
         env:
           PROXIES_URL: ${{ secrets.PROXIES_URL }}
         run: |
-          curl $PROXIES_URL > proxies.yaml && git add . && git commit -m 'Update: '"$(date)" && git push || echo 'nothing to push'
+          timeout 10 curl -f "https://api.star-history.com/svg?repos=PuddinCat/BestClash&type=Date" > /tmp/stars.svg && mv /tmp/stars.svg .
+          curl $PROXIES_URL > proxies.yaml
+          ret=$?
+          length=$(wc -l < proxies.yaml)
+          if (( ret == 0 )) && (( length >= 10 )); then 
+            git add . && git commit -m 'Update: '"$(date)" && git push || echo 'nothing to push'
+          else
+            echo error
+          fi
