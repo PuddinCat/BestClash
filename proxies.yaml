@@ -4,6 +4,13 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- cipher: aes-256-cfb
+  name: cn|60ea|puddincat07@Telegram
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
+  udp: true
 - name: nl|7363|puddincat07@Telegram
   password: gf1:gfhysteria2024
   port: 443
@@ -13,26 +20,11 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  name: us|e9fc|puddincat07@Telegram
+  name: us|2220|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 104.21.46.3
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|2e5f|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.23.63
+  server: 172.67.149.60
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -40,156 +32,7 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: xx|8008|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|f608|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|4896|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|9165|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.233
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|b395|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: xx|c122|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|d210|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|8095|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.210
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|cc28|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.246
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|b84c|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.6
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /assignment
 - alpn:
   - h3
@@ -211,6 +54,119 @@ proxies:
         Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
+  name: us|9f71|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|dfac|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.225
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|e9fc|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.21.46.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|f508|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|f608|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.77
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: aes-256-gcm
+  name: ru|057a|puddincat07@Telegram
+  password: 1eadd4e4a37b6601
+  port: 10801
+  server: 45.8.158.176
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- client-fingerprint: chrome
+  name: us|b395|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: xx|8008|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: us|2fd2|puddincat07@Telegram
   network: ws
   password: humanity
@@ -224,6 +180,40 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|9165|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.233
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: xx|cf0d|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
 - alpn:
   - http/1.1
@@ -249,41 +239,41 @@ proxy-groups:
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: url-test
   url: https://www.gstatic.com/youtube/img/emojis/emojis-png-7.json
@@ -292,21 +282,21 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
@@ -326,21 +316,21 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
@@ -352,42 +342,42 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
@@ -395,21 +385,21 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -426,21 +416,21 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - cn|60ea|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - us|2e5f|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|f608|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9165|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|d210|puddincat07@Telegram
-  - us|8095|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|dfac|puddincat07@Telegram
+  - us|e9fc|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|f608|puddincat07@Telegram
+  - ru|057a|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|2fd2|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - xx|cf0d|puddincat07@Telegram
   - us|5eb0|puddincat07@Telegram
   type: select
 rules:
